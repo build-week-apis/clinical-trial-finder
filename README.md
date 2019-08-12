@@ -1,6 +1,6 @@
 # Clinical Trial Finder
 
-`Delpoyed URL: https://build-clinical-trial-finder.herokuapp.com`
+_Delpoyed URL:_ https://build-clinical-trial-finder.herokuapp.com[https://build-clinical-trial-finder.herokuapp.com]
 
 ## Models
 
@@ -60,6 +60,6 @@
 | GET    | `/api/watchlist`           | yes            | Returns all lists                                                                                                                             |
 | GET    | `/api/users/:id/watchlist` | yes            | Returns a single list by id                                                                                                                   |
 | POST   | `/api/watchlist`           | yes            | Add a new list to the database. `users_id` is required and must match the id of the logged in user. All other parts of the model are optional |
-| DELETE | `/api/watchlist/:id`       | yes            | Delete an organization by id                                                                                                                  |
+| DELETE | `/api/watchlist/:id`       | yes            | Delete a list by id                                                                                                                           |
 
 <!-- Note: `users_id` is required in the POST request and must match the id of the logged in user. All other parts of the model are optional -->
