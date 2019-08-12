@@ -17,9 +17,7 @@ server.use("/api", usersRouter);
 server.use("/api", watchlistRouter);
 
 server.get("/", (req, res) => {
-  res.send(
-    "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
-  );
+  res.send("API Running");
 });
 
 module.exports = server;
