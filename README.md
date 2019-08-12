@@ -1,6 +1,6 @@
 # Clinical Trial Finder
 
-_Delpoyed URL:_ https://build-clinical-trial-finder.herokuapp.com[https://build-clinical-trial-finder.herokuapp.com]
+_Delpoyed URL:_ [https://build-clinical-trial-finder.herokuapp.com](https://build-clinical-trial-finder.herokuapp.com)
 
 ## Models
 
